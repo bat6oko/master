@@ -326,3 +326,10 @@ footer {
     color:#444;
   }
 }
+header ul {
+   display:none;
+	 }
+
+header p.view {
+   display:none;
+}
