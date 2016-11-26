@@ -110,6 +110,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  z-index: 999;
 }
 
 header ul {
@@ -175,6 +176,9 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+    display: block;
+    z-index: 999;
+    position: relative;
 }
 
 small {
