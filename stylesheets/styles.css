@@ -11,7 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
- font-family: 'Bungee Shade', cursive;
+ font-family: 'Bungee Inline', cursive;
 }
 
 p, ul, ol, table, pre, dl {
@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Shade', cursive;
 }
 
 h2 {
