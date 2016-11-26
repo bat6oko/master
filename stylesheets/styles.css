@@ -280,6 +280,10 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+    display:none;
+  }
+  header p.view {
+    display:none;
   }
 }
 
