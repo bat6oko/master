@@ -65,7 +65,7 @@ var background = (function(){
     var grid = new THREE.GridHelper(50,1);
     grid.position.set(0,-2,0);
     grid.rotation.x=0;
-    grid.setColors(0xffffff,0xffffff);
+ //   grid.setColors(0xffffff,0xffffff); -deprecated
     grid.material.transparent = true
     grid.material.opacity = .5
     scene.add(grid);
