@@ -10,7 +10,7 @@ var background = (function(){
   var options = {
     type: -1, //  -1: random,  0: boxes,  1: spheres,  2:  pyramids
     n: 100,
-    mainColor: 0xffffff,
+    mainColor: 0xfcfcfc,
     paused:false
   }
   
@@ -57,7 +57,7 @@ var background = (function(){
   }
   
   function generateMainObjects(){
-    var light = new THREE.HemisphereLight(0xffffff, 0xdedede, 1);
+    var light = new THREE.HemisphereLight(0xffff00, 0xdedede, 1);
     light.castShadow = true;
     scene.add(light)
   
