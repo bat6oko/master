@@ -57,7 +57,7 @@ var background = (function(){
   }
   
   function generateMainObjects(){
-    var light = new THREE.HemisphereLight(0xDCA80E, 0xdedede, 1);
+    var light = new THREE.HemisphereLight(0xdca80e, 0xdedede, 1);
     light.castShadow = true;
     scene.add(light)
   
