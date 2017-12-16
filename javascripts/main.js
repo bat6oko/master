@@ -10,7 +10,7 @@ var background = (function(){
   var options = {
     type: -1, //  -1: random,  0: boxes,  1: spheres,  2:  pyramids
     n: 100,
-    mainColor: 0xffffff,
+    mainColor: 0xfcfcfc,
     paused:false
   }
   
@@ -57,7 +57,7 @@ var background = (function(){
   }
   
   function generateMainObjects(){
-    var light = new THREE.HemisphereLight(0xffffff, 0xdedede, 1);
+    var light = new THREE.HemisphereLight(0xdca80e, 0xdedede, 1);
     light.castShadow = true;
     scene.add(light)
   
@@ -65,7 +65,7 @@ var background = (function(){
     var grid = new THREE.GridHelper(50,1);
     grid.position.set(0,-2,0);
     grid.rotation.x=0;
-    grid.setColors(0xffffff,0xffffff);
+ //   grid.setColors(0xffffff,0xffffff); -deprecated
     grid.material.transparent = true
     grid.material.opacity = .5
     scene.add(grid);
